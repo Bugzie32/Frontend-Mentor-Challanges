@@ -11,4 +11,41 @@ body {
 	background-color: #0d192b;
 	color: white;
 	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container {
+	background-color: #14253d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	border-radius: 23px;
+}
+
+img {
+	max-width: 25em;
+	border-radius: 23px;
+}
+
+.text {
+	padding-top: 25px;
+}
+
+.main-text {
+	text-decoration: none;
+	color: white;
+	font-size: 28px;
+}
+
+.text p {
+	color: #8bacda;
+}
+
+.creation {
+	text-decoration: none;
+	color: white;
 }
