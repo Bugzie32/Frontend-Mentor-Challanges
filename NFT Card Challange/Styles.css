@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body{
-  font-family: 'Outfit',
-  sans-serif;
-  background-color: #0D192B;
-  color: white;
-  height: 100vh;
+body {
+	font-family: "Outfit", sans-serif;
+	background-color: #0d192b;
+	color: white;
+	height: 100vh;
 }
-
