@@ -29,34 +29,19 @@ section{
 
 img{
 border-radius: 18px;
-max-width: 30em;
+max-width: 25em;
 max-height: 30em;
 }
 
 .text{
-  padding-top: 6%;
-  display: flex;
-  float: left;
+  padding-top: 7%;
 }
 
 #equ{
   color: #8BACDA;
 }
 
-/* Fix space to have sit space between
-eth-clock{
-  display: flex;
-  flex-direction: row;
-} */
-
-.eth{
-  display: flex;
-}
 
 .amount{
   color: #00FFF7;
-}
-
-.clock{
-  display: flex;
 }
