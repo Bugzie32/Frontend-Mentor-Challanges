@@ -11,5 +11,52 @@ body{
   background-color: #0D192B;
   color: white;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+section{
+  background-color: #14253D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: #14253D solid 35px;
+  border-radius: 18px;
+}
+
+img{
+border-radius: 18px;
+max-width: 30em;
+max-height: 30em;
+}
+
+.text{
+  padding-top: 6%;
+  display: flex;
+  float: left;
+}
+
+#equ{
+  color: #8BACDA;
+}
+
+/* Fix space to have sit space between
+eth-clock{
+  display: flex;
+  flex-direction: row;
+} */
+
+.eth{
+  display: flex;
+}
+
+.amount{
+  color: #00FFF7;
+}
+
+.clock{
+  display: flex;
+}
