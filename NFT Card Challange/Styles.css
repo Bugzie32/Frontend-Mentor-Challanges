@@ -10,10 +10,21 @@ body {
 	font-family: "Outfit", sans-serif;
 	background-color: #0d192b;
 	color: white;
-	height: 100vh;
 }
 
 .container {
 	max-width: 350px;
 	margin: 0 auto;
+}
+
+.wrap {
+	margin: 2rem 1rem;
+	padding: 1.25rem;
+	background-color: #14253d;
+	border-radius: 16px;
+}
+
+.img img {
+	width: 100%;
+	border-radius: 16px;
 }
