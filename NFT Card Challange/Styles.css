@@ -19,12 +19,16 @@ body {
 
 .wrap {
 	margin: 2rem 1rem;
-	padding: 1.25rem;
+	padding: 20px;
 	background-color: #14253d;
 	border-radius: 16px;
 }
 
 .img-overlay {
+	position: absolute;
+	width: 50px;
+	left: 50%;
+	top: 50%;
 }
 
 .img img {
