@@ -13,11 +13,67 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #e0e8ff;
-	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .container {
-	position: absolute;
+	background-color: white;
+	max-width: 25%;
+	border-radius: 20px;
+}
+
+.hero img {
+	max-width: 100%;
+	border-radius: 20px 20px 0 0;
+}
+
+section {
+	margin: 40px;
+}
+
+.text-content {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.text-content h2 {
+	padding-bottom: 15px;
+}
+
+.text-content p {
+	padding: 0px 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.plan-box {
+	background-color: #f5f7ff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 18px;
+	margin: 5px 15px;
+}
+
+.box-left div {
+	padding-left: 20px;
+}
+
+.box-left {
+	display: flex;
+}
+
+.payment {
+	padding: 15px 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sig {
