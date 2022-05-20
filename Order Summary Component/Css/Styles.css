@@ -31,7 +31,7 @@ body {
 }
 
 section {
-	margin: 40px;
+	margin: 35px 35px 10px 35px;
 }
 
 .text-content {
@@ -43,6 +43,7 @@ section {
 .text-content h2 {
 	padding-bottom: 15px;
 	font-weight: 900;
+	font-size: 28px;
 }
 
 .text-content p {
@@ -50,6 +51,8 @@ section {
 	text-align: center;
 	padding-bottom: 20px;
 	color: #7280a7;
+	font-weight: 700;
+	line-height: 1.7;
 }
 
 .plan-box {
@@ -59,12 +62,13 @@ section {
 	justify-content: center;
 	align-items: center;
 	justify-content: space-between;
-	padding: 13px 18px;
+	padding: 25px;
 	margin: 5px 15px;
 }
 
 .box-left div {
 	padding-left: 20px;
+	line-height: 1.6;
 }
 
 .box-left div p {
@@ -75,8 +79,17 @@ section {
 	display: flex;
 }
 
+.box-left h4 {
+	font-weight: 900;
+}
+
 .box-right a {
 	font-weight: 700;
+}
+
+.box-right a:hover {
+	text-decoration: none;
+	color: #8a88f5;
 }
 
 .payment {
@@ -89,8 +102,8 @@ section {
 .payment a:first-child {
 	text-decoration: none;
 	margin-top: 10px;
-	border: 1px solid #382ae1;
-	padding: 12px 91px;
+	padding: 12px 100px;
+	white-space: nowrap;
 	background-color: #382ae1;
 	color: white;
 	border-radius: 12px;
@@ -100,12 +113,20 @@ section {
 .payment a:nth-child(2) {
 	text-decoration: none;
 	margin-top: 20px;
-	padding: 12px 118px;
+	padding: 12px 100px;
 	background-color: white;
 	color: #7280a7;
 	border-radius: 12px;
 	white-space: nowrap;
-	font-weight: 700;
+	font-weight: 900;
+}
+
+.payment a:first-child:hover {
+	background-color: #8a88f5;
+}
+
+.payment a:last-child:hover {
+	color: black;
 }
 
 .sig {
