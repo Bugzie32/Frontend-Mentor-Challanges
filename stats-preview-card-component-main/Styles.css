@@ -11,12 +11,10 @@
 }
 
 body {
-	background-color: #090b1a;
+	/* background-color: #090b1a; */
+	background-color: white;
 	color: white;
 	font-family: "Inter", sans-serif;
-}
-
-section {
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -26,6 +24,7 @@ section {
 
 .content {
 	background-color: #1b1938;
+	border-radius: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,4 +34,26 @@ section {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin: 0 70px;
+}
+
+span {
+	color: #aa5cdb;
+}
+
+.main-text {
+	max-width: 400px;
+}
+
+.sub-text {
+	max-width: 400px;
+}
+
+.stats {
+	padding-top: 50px;
+}
+
+img {
+	border-radius: 0 10px 10px 0;
+	height: 100%;
 }
